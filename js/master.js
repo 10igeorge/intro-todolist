@@ -16,9 +16,13 @@ $(document).ready(function() {
     for(x in newTodoList){
        $('.notDone').append("<li><input type='checkbox' id='" + newTodoList[x] + "'><label for='" + newTodoList[x] + "'> &emsp;" + newTodoList[x] + "</label></li>" );
      }
+  $('#moveToCompleted').click(function() {
+    var inputCheck = $("input").is(":checked");
+    if(inputCheck === true){
+      $(":checked").parent().remove();
+    }
   });
-
-
+  });
 });
 
 
