@@ -13,9 +13,12 @@ $(document).ready(function() {
     var task3 = $('#thirdTask').val();
     var newTodoList = new TodoList(task1, task2, task3);
     $('#firstTask, #secondTask , #thirdTask' ).val("");
-    for(x in newTodoList){ $('.notDone').append("<li><span>" + newTodoList[x] + "</span></li>")}
-
+    for(x in newTodoList){
+       $('.notDone').append("<li><input type='checkbox' id='" + newTodoList[x] + "'><label for='" + newTodoList[x] + "'> &emsp;" + newTodoList[x] + "</label></li>" );
+     }
   });
+
+
 });
 
 
