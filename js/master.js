@@ -9,7 +9,6 @@ function TodoList(task1, task2, task3){
 
 //User input Logic
 
-
 $(document).ready(function() {
   $('#createList').click(function() {
     var task1 = $('#firstTask').val();

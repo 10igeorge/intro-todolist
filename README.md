@@ -1,58 +1,20 @@
-# Installation Instructions:
-
-##### Run command using your terminal within empty Project Folder i.e `$ ~/Desktop/empty_project`
-##### Install core files + automate .pairs file with nano:
-
-```bash
-curl -L -o x.zip https://github.com/TimDurward/task-runner/archive/master.zip && unzip x.zip && rm x.zip && mv task-runner-master/* . && rm -r task-runner-master/ && echo -e "pairs:\n  td: Tim Durward\n  mkn: Michael Kaiser-Nyman\nemail_addresses:\n  td: timothy.a.durward@gmail.com\n  mkn: michael@gmail.com" >> ~/.pairs && nano ~/.pairs && echo -e "\n\nInstalled:\nCore files\n.Pairs\n\nEnjoy - github.com/timdurward\n"
-```
-##### Install core files without .pairs automation:
-```bash
-curl -L -o x.zip https://github.com/TimDurward/task-runner/archive/master.zip && unzip x.zip && rm x.zip && mv task-runner-master/* . && rm -r task-runner-master/ && echo -e "\n\nInstalled:\nCore files\n\nEnjoy - github.com/timdurward\n"
-```
-#### Files/Folders included
-
-* Index.html
-* README.md
-* Js Folder
- * Master.js
- * Jquery.js
-* CSS Folder
-  * Master.css
-  * Bootstrap.css
-* Spec Folder
-  * Chai.js
-  * Mocha.js
-  * Mocha.css
-  * Specs.js
-  * spec-runner.html
-
-###### Optional
-* .pairs (installed within `~/.pairs`)
-
-##### Scripts/CSS are linked to index & spec-runner
-
-
-***
-
-<!-- Delete Above -->
 
 
 <!-- README FILE. Replace where needed -->
-# _Application Name_
+# _To Do App_
 
-#### _Short Summary of Application!_
+#### _Jot down all yout tasks, and cross em' off while you go_
 
-#### By _**Tim Durward**_
+#### By _**Tim Durward & Izzy George**_
 
 ## Description
 
-_Brief Description of Application._
+_An app that allows you to not waste paper and virtually track all your tasks to be completed!._
 
 ## Setup/Installation Requirements
 
 * _Open CMD/Terminal_
-* _git clone (github url)_
+* _git clone_
 * _cd into Git Repo_
 * _open index.html_
 * _BE. AMAZED._
@@ -60,12 +22,12 @@ _Brief Description of Application._
 
 ## Support and contact details
 
-_Support and Contact Description_
+_Contact Izzy or Tim if you need any help with the app..._
 
 ## Technologies Used
 
 * _html, css, markdown_
-* _Jquery, javascript_
+* _Jquery, javascript, MochaJs, ChaiJs_
 * _bootstrap, fontAwesome_
 * _hard work_
 
@@ -92,4 +54,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-**_Tim Durward_** Copyright (c) 2015
+**_Tim Durward & Izzy George_** Copyright (c) 2016
