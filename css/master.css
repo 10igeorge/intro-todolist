@@ -6,6 +6,10 @@ ul li{
   width: 50%;
 }
 
+.jumbotron {
+  margin-top: 40px;
+  text-align: center;
+}
 .container1 {
   display: none;
   background-color: #eee;
