@@ -14,7 +14,7 @@ _An app that allows you to not waste paper and virtually track all your tasks to
 ## Setup/Installation Requirements
 
 * _Open CMD/Terminal_
-* _git clone_
+* _git clone https://https://github.com/10igeorge/intro-wiki_
 * _cd into Git Repo_
 * _open index.html_
 * _BE. AMAZED._
